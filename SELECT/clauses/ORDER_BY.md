@@ -2,7 +2,7 @@
 
 
 ORDER BY 子句一般跟在 SELECT 之后，用于对选出的数据进行排序。
-
+## 一般语法
 ```
 SELECT
    select_list
@@ -15,17 +15,17 @@ ORDER BY
 
 `ORDER BY`后跟排序依据的列，`ASC`表示升序排列，`DESC`表示降序排列。
 
-ASC 可以省略:
-
-```
-SELECT
-   select_list
-FROM
-   table
-ORDER BY
-    column_1,
-    column_2 DESC;
-```
+>**TIP**: ASC 可以省略:
+>
+>```
+>SELECT
+>   select_list
+>FROM
+>   table
+>ORDER BY
+>    column_1,
+>    column_2 DESC;
+>```
 
 ## ORDER BY 使用列位置代替列名
 

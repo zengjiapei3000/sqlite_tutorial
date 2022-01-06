@@ -14,4 +14,4 @@ FROM table;
 
 ### DISTINCT 处理 NULL
 
-SQLite 认为NULL值是**重复**的。如果您将DISTINCT子句与具有NULL值的列一起使用，SQLite 将保留一个NULL值的一行。
+SQLite 认为NULL值是**重复**的。如果您将DISTINCT子句与具有NULL值的列一起使用，SQLite 将保留其中的一个NULL值。
